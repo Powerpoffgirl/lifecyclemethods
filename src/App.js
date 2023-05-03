@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import LifecycleA from "./components/LifecycleA";
+// import LifecycleB from "./components/LifecycleB";
 
 export class App extends Component {
   render() {
     return (
       <div>
         <LifecycleA />
+        
       </div>
     );
   }
